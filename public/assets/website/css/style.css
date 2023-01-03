@@ -1582,6 +1582,12 @@ tr .product-name {
 tr .quantity {
     width: 16%;
 }
+@media (max-width: 720px) {
+    tr .quantity form {
+        width: 50px;
+    }
+}
+
 .quantity_value {
     width: 50%;
 }
